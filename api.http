@@ -1,0 +1,9 @@
+### Create
+POST http://localhost:3000/users
+content-Type: application/json
+
+{
+    "email":"luis@luis.dev",
+    "nome":"Luis Henrique",
+    "idade": 30
+}
