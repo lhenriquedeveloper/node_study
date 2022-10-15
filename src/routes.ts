@@ -7,10 +7,10 @@ router.post('/users', UserController.create);
 // Read Route
 router.get('/users', UserController.findAll);
 // Unique User - Read Route
-router.get('/users:userID', UserController.findOne);
+router.get('/users/:userId', UserController.findOne);
 // Update Route
-router.put('/users:userID', UserController.update);
+router.put('/users/:userId', UserController.update);
 // Delete Route
-router.delete('/users:userID', UserController.destroy);
+router.delete('/users/:userId', UserController.destroy);
 
 export { router };
